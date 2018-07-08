@@ -5,9 +5,9 @@
 ####################list of means subject24#############
 for(z in 1:5){
   
-  pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject24\\subject24\\session",z,"\\subject24_Baseline",z,".csv",sep="")
-  pathc<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject24\\subject24\\session",z,"\\subject24_Cutting",z,".csv",sep="")
-  paths<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject24\\subject24\\session",z,"\\subject24_Suturing",z,".csv",sep="")
+  pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject24\\subject24\\session",z,"\\subject24_Baseline",z,".csv",sep="")
+  pathc<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject24\\subject24\\session",z,"\\subject24_Cutting",z,".csv",sep="")
+  paths<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject24\\subject24\\session",z,"\\subject24_Suturing",z,".csv",sep="")
   x<-paste("sub24_ses",z,"_mb",sep="")
   y<-paste("sub24_ses",z,"_mc",sep="")
   q<-paste("sub24_ses",z,"_ms",sep="")
