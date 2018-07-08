@@ -2,7 +2,7 @@
 
 ##### Subject data #######
 
-performance_data<-read.csv("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\MicrosurgeryPerformance.csv")
+performance_data<-read.csv("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\MicrosurgeryPerformance.csv")
 performance_data1<-performance_data[1:15,]
 sessions<-rep(c("Session1","Session2","Session3","Session4","Session5"),times=15,each=4)
 tasks<-rep(c("Cutting","Suturing"),times=75,each=2)
@@ -97,14 +97,14 @@ for(e in c(1,2,3,4,7,8,10,11,12,13,19,21,22,24,26)){
   for(z in 1:5){
     
     if(e<=9){
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Baseline",z,".csv",sep="")
-      pathc<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Cutting",z,".csv",sep="")
-      paths<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Suturing",z,".csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Baseline",z,".csv",sep="")
+      pathc<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Cutting",z,".csv",sep="")
+      paths<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Suturing",z,".csv",sep="")
     }else{
       
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Baseline",z,".csv",sep="")
-      pathc<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Cutting",z,".csv",sep="")
-      paths<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Suturing",z,".csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Baseline",z,".csv",sep="")
+      pathc<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Cutting",z,".csv",sep="")
+      paths<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Suturing",z,".csv",sep="")
       
     }
     x<-paste("sub",e,"_ses",z,"_mb",sep="")
@@ -128,14 +128,14 @@ for(e in c(1,2,3,4,7,8,10,11,12,13,19,21,22,24,26)){
   for(xx in 1:5){
     
     if(e<=9){
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",xx,"\\Subject0",e,"_Baseline",xx,".csv",sep="")
-      pathc<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",xx,"\\Subject0",e,"_Cutting",xx,".csv",sep="")
-      paths<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",xx,"\\Subject0",e,"_Suturing",xx,".csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",xx,"\\Subject0",e,"_Baseline",xx,".csv",sep="")
+      pathc<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",xx,"\\Subject0",e,"_Cutting",xx,".csv",sep="")
+      paths<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",xx,"\\Subject0",e,"_Suturing",xx,".csv",sep="")
     }else{
       
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",xx,"\\Subject",e,"_Baseline",xx,".csv",sep="")
-      pathc<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",xx,"\\Subject",e,"_Cutting",xx,".csv",sep="")
-      paths<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",xx,"\\Subject",e,"_Suturing",xx,".csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",xx,"\\Subject",e,"_Baseline",xx,".csv",sep="")
+      pathc<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",xx,"\\Subject",e,"_Cutting",xx,".csv",sep="")
+      paths<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",xx,"\\Subject",e,"_Suturing",xx,".csv",sep="")
       
     }  
   x<-paste("sub",e,"_ses",xx,"_mb",sep="")
@@ -223,7 +223,7 @@ AIC(model2)
 BIC(model2)
 
 ############## Comparison of TAI scores and Performance Scores ##############
-TAI_scores<-read.csv("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\tai_scores.txt",header=FALSE)
+TAI_scores<-read.csv("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\tai_scores.txt",header=FALSE)
 
 
 ############## To see the dependendency of TLX scores on session and task ##############
@@ -237,10 +237,10 @@ for(e in c(1,2,3,4,7,8,10,11,12,19,21,22,24)){
   for(z in 1:5){
     
     if(e<=9){
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Cutting",z,"_NASA.csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Cutting",z,"_NASA.csv",sep="")
     }else{
       
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Cutting",z,"_NASA.csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Cutting",z,"_NASA.csv",sep="")
       
     }
     
@@ -302,10 +302,10 @@ for(e in c(1,2,3,4,7,8,10,11,12,19,21,22,24)){
   for(z in 1:5){
     
     if(e<=9){
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Suturing",z,"_NASA.csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject0",e,"\\subject0",e,"\\session",z,"\\Subject0",e,"_Suturing",z,"_NASA.csv",sep="")
     }else{
       
-      pathb<-paste("C:\\Users\\Swetcha\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Suturing",z,"_NASA.csv",sep="")
+      pathb<-paste("C:\\Users\\Satya Praveen\\Desktop\\Stats\\project_new\\Methodist microsurgery with output\\subject",e,"\\subject",e,"\\session",z,"\\Subject",e,"_Suturing",z,"_NASA.csv",sep="")
       
     }
     
