@@ -1,4 +1,4 @@
-fileName <- "C:\\Users\\Swetcha\\Desktop\\Stats\\Team12_StatisticalInference1\\tai_scores.txt"
+fileName <- "C:\\Users\\Satya Praveen\\Desktop\\Stats\\Team12_StatisticalInference1\\tai_scores.txt"
 conn <- file(fileName,open="r")
 linn <-readLines(conn)
 dat = as.data.frame(do.call(rbind, strsplit(linn, split=",")), stringsAsFactors=FALSE)
