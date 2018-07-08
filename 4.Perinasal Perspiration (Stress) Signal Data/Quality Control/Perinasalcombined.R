@@ -4,22 +4,22 @@ library("png") # for reading in PNGs
 
 
 # example image
-img1<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject1.png",native=FALSE)
-img2<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject2.png",native=FALSE)
-img3<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject3.png",native=FALSE)
-img4<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject4.png",native=FALSE)
-img5<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject7.png",native=FALSE)
-img6<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject8.png",native=FALSE)
-img7<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject10.png",native=FALSE)
-img8<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject11.png",native=FALSE)
-img9<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject12.png",native=FALSE)
-img10<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject13.png",native=FALSE)
-img11<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject19.png",native=FALSE)
-img12<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject21.png",native=FALSE)
-img13<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject22.png",native=FALSE)
-img14<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject24.png",native=FALSE)
-img15<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\subject26.png",native=FALSE)
-img16<-readPNG("C:\\Users\\Swetcha\\Desktop\\Stats\\Final perinasal\\title.png",native=FALSE)
+img1<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject1.png",native=FALSE)
+img2<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject2.png",native=FALSE)
+img3<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject3.png",native=FALSE)
+img4<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject4.png",native=FALSE)
+img5<-readPNG("C:\\Users\\Satya PraveenDesktop\\Stats\\Final perinasal\\subject7.png",native=FALSE)
+img6<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject8.png",native=FALSE)
+img7<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject10.png",native=FALSE)
+img8<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject11.png",native=FALSE)
+img9<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject12.png",native=FALSE)
+img10<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject13.png",native=FALSE)
+img11<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject19.png",native=FALSE)
+img12<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject21.png",native=FALSE)
+img13<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject22.png",native=FALSE)
+img14<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject24.png",native=FALSE)
+img15<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\subject26.png",native=FALSE)
+img16<-readPNG("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Final perinasal\\title.png",native=FALSE)
 
 
 par(mar=rep(0,4)) # no margins
