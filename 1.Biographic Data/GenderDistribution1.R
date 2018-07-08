@@ -1,4 +1,4 @@
-mydata<-read.table("C:\\Users\\Swetcha\\Desktop\\Stats\\Project\\Methodist microsurgery study\\MicrosurgeryPerformance1.csv",header = TRUE,sep=",")
+mydata<-read.table("C:\\Users\\Satya Praveen\\Desktop\\Stats\\Project\\Methodist microsurgery study\\MicrosurgeryPerformance1.csv",header = TRUE,sep=",")
 sex<-mydata$Sex[1:16]
 sex1<-as.numeric(levels(sex))[sex]
 x1<-as.data.frame(table(sex1))
