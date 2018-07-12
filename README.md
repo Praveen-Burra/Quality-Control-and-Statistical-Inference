@@ -25,6 +25,4 @@ We have uploaded new performance data, with excplicit accuracy scores per task. 
 You need to formulate a set of pre-planned hypotheses that you would like to test. Such a set should be driven by the experimental design. This is a micro-surgical education study, with two distinct tasks that present different challenge levels. Some key questions are if the levels of stress and the type of task played any role in the accuracy scores, and if the accuracy scores changed over time. You can formulate a linear model to test this set of hypotheses. The results of these tests can provide revealing insight. For example, if you find that there was no accuracy improvement over time in the suturing task, this means that the educational process was a failure in this respect.
 CAUTION: There are a host of things that you need to be careful when you employ linear modeling here. For exmaple, you need to check for normality.
 
-### EXEMPLARY ANALYSIS:
-An exemplary analysis of laparoscopic surgical education has been published by Pavlidis et al.: https://www.nature.com/articles/srep00305
-Although there are many differences with the current microsurgery project, still the two studies are in the broader area of surgical education.
+
